@@ -1,0 +1,606 @@
+[
+  {
+    "id": "chariot",
+    "romanceable": false,
+    "benefits": [
+      {
+        "rank": 2,
+        "ability": "Punk Talk",
+        "description": "If negotiations with an upbeat Shadow fails, you can try again."
+      },
+      {
+        "rank": 3,
+        "ability": "Follow Up",
+        "description": "Chance to perform a follow-up attack if Joker’s attack does not down the enemy."
+      },
+      {
+        "rank": 4,
+        "ability": "Steath Dash",
+        "description": "Makes you less likely to be found in the Metaverse while dashing."
+      },
+      {
+        "rank": 6,
+        "ability": "Harisen Recovery",
+        "description": "Chance to cure status ailments inflicted upon party members."
+      },
+      {
+        "rank": 7,
+        "ability": "Insta-Kill",
+        "description": "When encountering a weak Shadow, you may destroy it immediately."
+      },
+      {
+        "rank": 8,
+        "ability": "Protect",
+        "description": "Chance to shield Joker from an otherwise fatal attack."
+      },
+      {
+        "rank": 10,
+        "ability": "Second Awakening",
+        "description": "Transforms his Persona into a mythological trickster."
+      },
+      {
+        "rank": "ROYAL",
+        "ability": "Second Awakening R",
+        "description": "Fuse with the mythological Trickster, awakening its true power."
+      }
+    ]
+  },
+  {
+    "id": "councillor",
+    "romanceable": false,
+    "benefits": [
+      {
+        "rank": 2,
+        "ability": "Detox X",
+        "description": "When Joker is inflicted with an ailment, he may recover immediately."
+      },
+      {
+        "rank": 3,
+        "ability": "Flow",
+        "description": "Chance to receive the effects of Charge and Concentrate at the start of battle."
+      },
+      {
+        "rank": 5,
+        "ability": "Mindfulness",
+        "description": "Chance to restore Joker’s SP when it is low."
+      },
+      {
+        "rank": 7,
+        "ability": "Flow Boost",
+        "description": "Raises the chance of Flow succeeding."
+      },
+      {
+        "rank": 9,
+        "ability": "Detox DX",
+        "description": "Raises the chance of Detox X succeeding."
+      }
+    ]
+  },
+  {
+    "id": "death",
+    "romanceable": true,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "devil",
+    "romanceable": true,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "emperor",
+    "romanceable": false,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "empress",
+    "romanceable": true,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "faith",
+    "romanceable": true,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "fortune",
+    "romanceable": true,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "hanged",
+    "romanceable": false,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "hermit",
+    "romanceable": true,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "hierophant",
+    "romanceable": false,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "justice",
+    "romanceable": false,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "lovers",
+    "romanceable": true,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "moon",
+    "romanceable": false,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "priestess",
+    "romanceable": true,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "star",
+    "romanceable": true,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "sun",
+    "romanceable": false,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "temperance",
+    "romanceable": true,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  },
+  {
+    "id": "tower",
+    "romanceable": false,
+    "benefits": [
+      {
+        "rank": 1,
+        "ability": "Rejuvenation",
+        "description": "Increases the selection of healing items at the clinic."
+      },
+      {
+        "rank": 3,
+        "ability": "Sterilization",
+        "description": "Adds more healing items to the clinic."
+      },
+      {
+        "rank": 5,
+        "ability": "Immunization ",
+        "description": "Adds support items to the inventory at the clinic."
+      },
+      {
+        "rank": 7,
+        "ability": "Discount",
+        "description": "Decreases the price for all items sold at the clinic."
+      },
+      {
+        "rank": 10,
+        "ability": "Resuscitation",
+        "description": "Increase the selection of revival items at the clinic."
+      }
+    ]
+  }
+]

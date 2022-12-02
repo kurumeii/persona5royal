@@ -1,0 +1,515 @@
+[
+  {
+    "level": 2,
+    "unlock_new_ability": true,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          { "id": 1, "text": "I’m counting on you", "point": 2, "same": true },
+          { "id": 2, "text": "You seems pretty exicted", "point": 2, "same": true },
+          { "id": 3, "text": "…Help with what?", "point": 2 }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          {
+            "id": 1,
+            "text": "What about them?",
+            "point": 0
+          },
+          {
+            "id": 2,
+            "text": "And then you punched him? ",
+            "point": 0
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          {
+            "id": 1,
+            "text": "Do you want to go back? ",
+            "point": 1,
+            "same": true
+          },
+          {
+            "id": 2,
+            "text": "Do you regret it?",
+            "point": 1,
+            "same": true
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          {
+            "id": 1,
+            "text": "You’re already fast enough.",
+            "point": 2
+          },
+          {
+            "id": 2,
+            "text": "Are your legs okay? ",
+            "point": 2
+          },
+          {
+            "id": 3,
+            "text": "It’s never too late, man.",
+            "point": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "unlock_new_ability": true,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          {
+            "id": 1,
+            "text": "Let's not fight",
+            "point": 1,
+            "same": true
+          },
+          {
+            "id": 2,
+            "text": "Want to train with us?",
+            "point": 0
+          },
+          {
+            "id": 3,
+            "text": "it's nice to meet you",
+            "point": 0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          {
+            "id": 1,
+            "text": "Calm down, Ryuji",
+            "point": 2,
+            "same": true
+          },
+          {
+            "id": 2,
+            "text": "Just endure it.",
+            "point": 2
+          },
+          {
+            "id": 3,
+            "text": "I'll shut them up",
+            "point": 0
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          {
+            "id": 1,
+            "text": "I can't exactly blame you",
+            "point": 1,
+            "same": true
+          },
+          {
+            "id": 2,
+            "text": "Violence is not the answer.",
+            "point": 0
+          },
+          {
+            "id": 3,
+            "text": "Yeah, that’d be best",
+            "point": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "unlock_new_ability": true,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          {
+            "id": 1,
+            "text": "Nakaoka?",
+            "point": 0
+          },
+          {
+            "id": 2,
+            "text": "Are you worried about him?",
+            "point": 1,
+            "same": true
+          },
+          {
+            "id": 3,
+            "text": "Just leave him be.",
+            "point": 0
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          {
+            "id": 1,
+            "text": "But you’re doing great.",
+            "point": 2,
+            "same": true
+          },
+          {
+            "id": 2,
+            "text": "It’s not so bad. ",
+            "point": 2
+          },
+          {
+            "id": 3,
+            "text": "I know how you feel.",
+            "point": 2,
+            "same": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "unlock_new_ability": false,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          {
+            "id": 1,
+            "text": "A towel? ",
+            "point": 2
+          },
+          {
+            "id": 2,
+            "text": "Protein powder?",
+            "point": 2,
+            "same": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          {
+            "id": 1,
+            "text": "You seem conflicted.",
+            "point": 1,
+            "same": true
+          },
+          {
+            "id": 2,
+            "text": "Do you want to rejoin? ",
+            "point": 1,
+            "same": true
+          },
+          {
+            "id": 3,
+            "text": "You’re done with them, right?",
+            "point": 0
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          {
+            "id": 1,
+            "text": "So he’s short?",
+            "point": 2
+          },
+          {
+            "id": 2,
+            "text": "So he’s an asshole?",
+            "point": 3
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          {
+            "id": 1,
+            "text": "Don’t worry. I gotcha. ",
+            "point": 1,
+            "same": true
+          },
+          {
+            "id": 2,
+            "text": "I haven’t agreed to anything.",
+            "point": 0
+          },
+          {
+            "id": 3,
+            "text": "Fine, but you’re buying ramen.",
+            "point": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "unlock_new_ability": true,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          {
+            "id": 1,
+            "text": "Let’s stay here.",
+            "point": 2
+          },
+          {
+            "id": 2,
+            "text": "How about Protein Lovers? ",
+            "point": 2
+          },
+          {
+            "id": 3,
+            "text": "We can train at my place.",
+            "point": 2,
+            "same": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          {
+            "id": 1,
+            "text": "You guys should trust Nakaoka.",
+            "point": 3
+          },
+          {
+            "id": 2,
+            "text": "This is no time for arguing.",
+            "point": 3
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          {
+            "id": 1,
+            "text": "Absolutely",
+            "point": 2,
+            "same": true
+          },
+          {
+            "id": 2,
+            "text": "More or less",
+            "point": 2,
+            "same": true
+          },
+          {
+            "id": 3,
+            "text": "Not in the slightest.",
+            "point": 0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          {
+            "id": 1,
+            "text": "I don’t get it.",
+            "point": 0
+          },
+          {
+            "id": 2,
+            "text": "Can you explain that?",
+            "point": 0
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "options": [
+          {
+            "id": 1,
+            "text": "…Huh? ",
+            "point": 0
+          },
+          {
+            "id": 2,
+            "text": "I really don’t understand. ",
+            "point": 0
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "options": [
+          {
+            "id": 1,
+            "text": "Sounds like you two were close",
+            "point": 0
+          },
+          {
+            "id": 2,
+            "text": "Just like you.",
+            "point": 0
+          },
+          {
+            "id": 3,
+            "text": "So he should’ve punched back?",
+            "point": 2,
+            "same": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "unlock_new_ability": true,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          { "id": 1, "text": "Should we change his heart", "point": 0 },
+          { "id": 2, "text": "Let’s talk to Takeishi.", "point": 2, "same": true }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          { "id": 1, "text": "I think it’s cool, Ryuji", "point": 2, "same": true },
+          { "id": 2, "text": "Wait, what?", "point": 2 }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          { "id": 1, "text": "Never know until you try", "point": 1, "same": true },
+          { "id": 1, "text": "It’s out of our hands", "point": 0 },
+          { "id": 1, "text": "We’ll use force if we have to.", "point": 0 }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "unlock_new_ability": true,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          { "id": 1, "text": "What if they start fighting?", "point": 0 },
+          { "id": 2, "text": "I doubt they’ll believe you", "point": 0 }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          { "id": 1, "text": "Things turned out for the best", "point": 3 },
+          { "id": 2, "text": "You deserved it.", "point": 0 }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          { "id": 1, "text": "All I did was watch.", "point": 2, "same": true },
+          { "id": 2, "text": "Are you gonna pay me back? ", "point": 0 }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          { "id": 1, "text": "But I was just standing here…", "point": 2 },
+          { "id": 2, "text": "You weren’t cool though.", "point": 2, "same": true }
+        ]
+      },
+      {
+        "id": 5,
+        "options": [
+          { "id": 1, "text": "You did a great job.", "point": 0 },
+          { "id": 2, "text": "So. Closed case?", "point": 1, "same": true },
+          { "id": 3, "text": "We make a good team too.", "point": 0 }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 9,
+    "unlock_new_ability": false,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          { "id": 1, "text": "Are you satisfied now?", "point": 2, "same": true },
+          { "id": 2, "text": "Not Running?", "point": 2 }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          { "id": 1, "text": "What did you say?", "point": 2 },
+          { "id": 2, "text": "Do you have any time for that? ", "point": 2 },
+          { "id": 3, "text": "Don’t do it.", "point": 2, "same": true }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          { "id": 1, "text": "You’re Right.", "point": 3 },
+          { "id": 2, "text": "I never realized that.", "point": 3 }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          { "id": 1, "text": "I agree", "point": 1, "same": true },
+          { "id": 2, "text": "Be more specific.", "point": 0 },
+          { "id": 3, "text": "And where is this place? ", "point": 0 }
+        ]
+      },
+      {
+        "id": 5,
+        "options": [
+          { "id": 1, "text": "Congratulations", "point": 1, "same": true },
+          { "id": 2, "text": "Got him under control, how?", "point": 0 },
+          { "id": 3, "text": "Better watch out for them.", "point": 1, "same": true }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 10,
+    "unlock_new_ability": true,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          { "id": 1, "text": "I’m looking forward to it", "point": 3 },
+          { "id": 2, "text": "We can’t lose either.", "point": 3 }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          { "id": 1, "text": "You’re welcome.", "point": 0 },
+          { "id": 2, "text": "It’s all because of you.", "point": 0 }
+        ]
+      }
+    ]
+  }
+]

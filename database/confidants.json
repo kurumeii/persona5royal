@@ -1,0 +1,21 @@
+[
+  { "id": "1", "familyName": "Sakamoto", "name": "Ryuji", "arcana": "Chariot" },
+  { "id": "2", "familyName": "Takuto", "name": "Maruki", "arcana": "Councillor" },
+  { "id": "3", "familyName": "Tae", "name": "Takemi", "arcana": "Death" },
+  { "id": "4", "familyName": "Ichiko", "name": "Ohya", "arcana": "Devil" },
+  { "id": "5", "familyName": "Kitagawa", "name": "Yusuke", "arcana": "Emperor" },
+  { "id": "6", "familyName": "Okumura", "name": "Haru", "arcana": "Empress" },
+  { "id": "7", "familyName": "Yoshizawa", "name": "Sumire", "arcana": "Faith" },
+  { "id": "8", "familyName": "Chihaya", "name": "Mifune", "arcana": "Fortune" },
+  { "id": "9", "familyName": "Munehisa", "name": "Iwai", "arcana": "Hanged" },
+  { "id": "10", "familyName": "Sakura", "name": "Futaba", "arcana": "Hermit" },
+  { "id": "11", "familyName": "Sakura", "name": "Sojiro", "arcana": "Hierophant" },
+  { "id": "12", "familyName": "Goro", "name": "Akechi", "arcana": "Justice" },
+  { "id": "13", "familyName": "Takamaki", "name": "Ann", "arcana": "Lovers" },
+  { "id": "14", "familyName": "Yuuki", "name": "Mishima", "arcana": "Moon" },
+  { "id": "15", "familyName": "Niijima", "name": "Makoto", "arcana": "Priestess" },
+  { "id": "16", "familyName": "Togo", "name": "Hifumi", "arcana": "Star" },
+  { "id": "17", "familyName": "Toranosuke", "name": "Yoshida", "arcana": "Sun" },
+  { "id": "18", "familyName": "Sadayo", "name": "Kawakami", "arcana": "Temperance" },
+  { "id": "19", "familyName": "Oda", "name": "Shinya", "arcana": "Tower" }
+]

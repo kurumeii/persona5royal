@@ -1,0 +1,400 @@
+[
+  {
+    "level": 2,
+    "unlock_new_ability": true,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          { "id": 1, "text": "Didn’t have much choice.", "point": 0 },
+          { "id": 2, "text": "We made a deal.", "point": 1, "same": true },
+          { "id": 3, "text": "I’m a little nervous", "point": 1, "same": true }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          { "id": 1, "text": "It’s in the past", "point": 0 },
+          { "id": 2, "text": "I’m doing okay now.", "point": 0 },
+          { "id": 3, "text": "So much for privacy. ", "point": 0 }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          { "id": 1, "text": "But it sounds right.", "point": 2, "same": true },
+          { "id": 2, "text": "Yep", "point": 2 },
+          { "id": 3, "text": "Kinda creeping me out here.", "point": 0 }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          { "id": 1, "text": "So… what?", "point": 0 },
+          { "id": 2, "text": "I’ll need more details.", "point": 0 },
+          { "id": 3, "text": "Uh..", "point": 0 }
+        ]
+      },
+      {
+        "id": 5,
+        "options": [
+          { "id": 1, "text": "Well, okay", "point": 1, "same": true },
+          { "id": 2, "text": "Better make it worth it.", "point": 0 },
+          { "id": 3, "text": "Why me, though? ", "point": 0 }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "unlock_new_ability": true,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          { "id": 1, "text": "So they have, huh?", "point": 1, "same": true },
+          { "id": 2, "text": "You worry too much.", "point": 0 },
+          { "id": 3, "text": "Thanks to you, probably.", "point": 1, "same": true }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          { "id": 1, "text": "Of course", "point": 1, "same": true },
+          { "id": 2, "text": "Yeah, for our deal", "point": 1, "same": true },
+          { "id": 3, "text": "I forgot", "point": 0 }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          { "id": 1, "text": "When someone betrays me", "point": 0 },
+          { "id": 2, "text": "When I lie.", "point": 0 },
+          { "id": 3, "text": "When I get punched.", "point": 0 }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          { "id": 1, "text": "That one seems necessary", "point": 1, "same": true },
+          { "id": 2, "text": "We’d be better off without it", "point": 0 },
+          { "id": 3, "text": "It’s a seed for new loves.", "point": 1, "same": true }
+        ]
+      },
+      {
+        "id": 5,
+        "options": [
+          { "id": 1, "text": "Did that help?", "point": 2 },
+          { "id": 2, "text": "Don’t worry about it.", "point": 2 }
+        ]
+      },
+      {
+        "id": 6,
+        "options": [
+          { "id": 1, "text": "Good work over there.", "point": 1, "same": true },
+          { "id": 2, "text": "So you’re actually working?", "point": 0 },
+          { "id": 3, "text": "Getting to your research now?", "point": 0 }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "unlock_new_ability": false,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          { "id": 1, "text": "Where’s this coming from?", "point": 0 },
+          { "id": 2, "text": "What are you talking about?", "point": 0 }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          { "id": 1, "text": "I know, right…?", "point": 2, "same": true },
+          { "id": 2, "text": "It’s not the worst. ", "point": 0 },
+          { "id": 3, "text": "Talk about a reward.", "point": 2 }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          { "id": 1, "text": "That’d be great.", "point": 2 },
+          { "id": 2, "text": "Is that possible?", "point": 0 },
+          { "id": 3, "text": "Is that what you’re researching?", "point": 2, "same": true }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          { "id": 1, "text": "...", "point": 0 },
+          { "id": 2, "text": "Are you ok?", "point": 0 }
+        ]
+      },
+      {
+        "id": 5,
+        "options": [
+          { "id": 1, "text": "That’s a grand plan.", "point": 2 },
+          { "id": 2, "text": "You’re so kind.", "point": 2 }
+        ]
+      },
+      {
+        "id": 6,
+        "options": [
+          { "id": 1, "text": "That sounds fun.", "point": 2, "same": true },
+          { "id": 2, "text": "I’m not the 'free labor' type", "point": 0 },
+          { "id": 3, "text": "Nope", "point": 0 }
+        ]
+      },
+      {
+        "id": 7,
+        "options": [
+          { "id": 1, "text": "I’m completely fine.", "point": 1, "same": true },
+          { "id": 2, "text": "It’s part of our deal, so…", "point": 1, "same": true },
+          { "id": 3, "text": "I’m struggling, to be honest", "point": 0 }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "unlock_new_ability": true,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          { "id": 1, "text": "This looks great!", "point": 2, "same": true },
+          { "id": 2, "text": "How old do you think I am?", "point": 0 },
+          { "id": 3, "text": "I could just take cash…", "point": 2 }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          { "id": 1, "text": "The one-cookie container.", "point": 0 },
+          { "id": 2, "text": "The ten-cookie container", "point": 0 },
+          { "id": 3, "text": "It was a tie", "point": 0 }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          { "id": 1, "text": "I never considered that.", "point": 0 },
+          { "id": 2, "text": "They’re getting played", "point": 2 },
+          { "id": 3, "text": "You know, you’re right.", "point": 2, "same": true }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          { "id": 1, "text": "My senses lied to me!", "point": 1, "same": true },
+          { "id": 2, "text": "Hey, as long as it tastes good.", "point": 1, "same": true },
+          { "id": 3, "text": "It’s a little scary.", "point": 0 }
+        ]
+      },
+      {
+        "id": 5,
+        "options": [
+          { "id": 1, "text": "Not “truth” exactly…", "point": 0 },
+          { "id": 2, "text": "I guess so.", "point": 1, "same": true },
+          { "id": 3, "text": "I don’t know.", "point": 0 }
+        ]
+      },
+      {
+        "id": 6,
+        "options": [
+          { "id": 1, "text": "I really don’t mind.", "point": 1, "same": true },
+          { "id": 2, "text": "Come on, man.", "point": 0 },
+          { "id": 3, "text": "It was thought-provoking.", "point": 1, "same": true }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "unlock_new_ability": false,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          { "id": 1, "text": "You wanted to talk?", "point": 0 },
+          { "id": 2, "text": "Another cup?", "point": 1, "same": true },
+          { "id": 3, "text": "We’ve got curry, too.", "point": 1, "same": true }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          { "id": 1, "text": "I can do that.", "point": 2, "same": true },
+          { "id": 2, "text": "It’s a deal.", "point": 2 },
+          { "id": 3, "text": "I’m not up for this…", "point": 0 }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          { "id": 1, "text": "Isn’t that enough?", "point": 0 },
+          { "id": 2, "text": "You need more than that?", "point": 0 }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          { "id": 1, "text": "So what CAN we do?", "point": 0 },
+          { "id": 2, "text": "It’s a hard question… ", "point": 0 },
+          { "id": 3, "text": "So give up.", "point": 1, "same": true }
+        ]
+      },
+      {
+        "id": 5,
+        "options": [
+          { "id": 1, "text": "All hearts share some things.", "point": 0 },
+          { "id": 2, "text": "What if they’re connected? ", "point": 0 }
+        ]
+      },
+      {
+        "id": 6,
+        "options": [
+          { "id": 1, "text": "Calm down.", "point": 0 },
+          { "id": 2, "text": "Where’s this coming from?", "point": 0 },
+          { "id": 3, "text": "Cognitive pscience?", "point": 0 }
+        ]
+      },
+      {
+        "id": 7,
+        "options": [
+          { "id": 1, "text": "Calm down.", "point": 1, "same": true },
+          { "id": 2, "text": "What’s going on?", "point": 1, "same": true },
+          { "id": 3, "text": "Heavy breathing? Pervert. ", "point": 0 }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "unlock_new_ability": true,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          { "id": 1, "text": "You really are dedicated.", "point": 3 },
+          { "id": 2, "text": "Are they even relevant? ", "point": 3 },
+          { "id": 3, "text": "Are you a fan?", "point": 3 }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          { "id": 1, "text": "No idea.", "point": 3 },
+          { "id": 2, "text": "As in, removing them?", "point": 3 },
+          { "id": 3, "text": "How about you Maruki?", "point": 3 }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          { "id": 1, "text": "The change of heart…?", "point": 3 },
+          { "id": 2, "text": "…… ", "point": 3 }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          { "id": 1, "text": "I have no clue. ", "point": 3 },
+          { "id": 2, "text": "Sounds pretty far-fetched.", "point": 3 },
+          { "id": 3, "text": "It’s intriguing", "point": 3 }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "unlock_new_ability": false,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          { "id": 1, "text": "I’m good on cookies, thanks.", "point": 2 },
+          { "id": 2, "text": "What do you mean?", "point": 2, "same": true },
+          { "id": 3, "text": "Thanks, but I should get going.", "point": 0 }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          { "id": 1, "text": "Ooh, really?", "point": 2, "same": true },
+          { "id": 2, "text": "Can you afford that?", "point": 2 },
+          { "id": 3, "text": "Sorry, I prefer sushi", "point": 2 }
+        ]
+      },
+      {
+        "id": 3,
+        "options": [
+          { "id": 1, "text": "Thanks for the food! ", "point": 2, "same": true },
+          { "id": 2, "text": "Self-control much?", "point": 0 },
+          { "id": 3, "text": "This is quite the spread", "point": 2 }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          { "id": 1, "text": "I’m his pupil.", "point": 2 },
+          { "id": 2, "text": "It’s complicated.", "point": 0 },
+          { "id": 3, "text": "We’ve made a deal.", "point": 2, "same": true }
+        ]
+      },
+      {
+        "id": 5,
+        "options": [
+          { "id": 1, "text": "Congratulations", "point": 3 },
+          { "id": 2, "text": "Way to go", "point": 3 }
+        ]
+      },
+      {
+        "id": 6,
+        "options": [
+          { "id": 1, "text": "I sure do.", "point": 3 },
+          { "id": 2, "text": "Let’s celebrate. ", "point": 3 }
+        ]
+      },
+      {
+        "id": 7,
+        "options": [
+          { "id": 1, "text": "She’s a girlfriend of yours?", "point": 0 },
+          { "id": 2, "text": "Who’s Rumi?", "point": 0 },
+          { "id": 3, "text": "Should I leave you two to talk?", "point": 0 }
+        ]
+      },
+      {
+        "id": 8,
+        "options": [
+          { "id": 1, "text": "He’s a good friend.", "point": 1, "same": true },
+          { "id": 2, "text": "Learn some independence.", "point": 0 },
+          { "id": 2, "text": "You’ll get the tab next time.", "point": 0 }
+        ]
+      }
+    ]
+  },
+  {
+    "level": 9,
+    "unlock_new_ability": true,
+    "responses": [
+      {
+        "id": 1,
+        "options": [
+          { "id": 1, "text": "Yeah", "point": 0 },
+          { "id": 2, "text": "Kind of.", "point": 0 }
+        ]
+      },
+      {
+        "id": 2,
+        "options": [
+          { "id": 1, "text": "Kind of sad…", "point": 2 },
+          { "id": 2, "text": "Is our deal over?", "point": 2 },
+          { "id": 2, "text": "Well… take care of yourself", "point": 2 }
+        ]
+      }
+    ]
+  }
+]
