@@ -1,7 +1,7 @@
 import Image from 'next/image.js'
 import Link from 'next/link.js'
 import React, { createRef, useEffect, useRef, useState } from 'react'
-import CrossWord from '../Quiz/Crossword.jsx'
+import CrossWord from '../Quiz/CrossWord.jsx'
 import Months from '../Quiz/Months.jsx'
 
 function ListContent({ selected }) {
