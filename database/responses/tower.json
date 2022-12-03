@@ -113,7 +113,7 @@
         "options": [
           { "id": 1, "text": "Calm down.", "point": 0 },
           { "id": 2, "text": "You’re being a sore loser.", "point": 0 },
-          { "id": 3, "text": "Yeah, you tell him! ", "point": 1, "new": true }
+          { "id": 3, "text": "Yeah, you tell him! ", "point": 1, "same": true }
         ]
       },
       {
