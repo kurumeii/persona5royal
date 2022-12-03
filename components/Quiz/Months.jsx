@@ -6,7 +6,7 @@ function Months(props, ref) {
   const { data, scrollToContent } = props
   return (
     <>
-      <div className='col-span-2'>
+      <div className='col-span-2 hidden xl:block'>
         <div className='w-60 sticky top-0 max-h-screen overflow-auto overscroll-contain'>
           <ul className='menu menu-vertical bg-base-300 '>
             {data.map((obj, i) => (
@@ -28,7 +28,7 @@ function Months(props, ref) {
       <div className='col-span-10'>
         {data.map((obj, index) => (
           <div
-            className='card lg:card-side py-10'
+            className='card lg:card-side p-10'
             key={index}
             ref={ref[index]}
           >

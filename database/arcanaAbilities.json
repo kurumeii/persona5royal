@@ -113,28 +113,28 @@
     "benefits": [
       {
         "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "ability": "Rumor-filled Scoop",
+        "description": "Decreases the Security Level when you find a new Safe Room."
       },
       {
-        "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "rank": 4,
+        "ability": "Shocking Scoop",
+        "description": "Security Level raises slowly, and lowers upon defeating an ambushed enemy"
       },
       {
         "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "ability": "Unprecedented Scoop",
+        "description": "Allows you to begin with a low Security Level when infiltrating a Palace."
       },
       {
         "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "ability": "Outrageous Scoop ",
+        "description": "Allows you to begin with an even lower Security Level when infiltrating a Palace."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Legendary Scoop",
+        "description": "Makes it easier to ambush the enemy, regardless of Security Level."
       }
     ]
   },
@@ -144,28 +144,53 @@
     "benefits": [
       {
         "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "ability": "Card Duplication.",
+        "description": "Allows Yusuke to use Blank Cards to duplicate Skill Cards."
       },
       {
         "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "ability": "Followup",
+        "description": "Chance to perform a follow-up attack if Joker’s attack does not down the enemy"
+      },
+      {
+        "rank": 4,
+        "ability": "Art Talk",
+        "description": "If negotiations with a lone Shadow fails, you can try again."
       },
       {
         "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "ability": "Card Creation",
+        "description": "Allows Yusuke to create any Skill card he has copied once before."
+      },
+      {
+        "rank": 6,
+        "ability": "Harisen Recovery",
+        "description": "Chance to cure status ailments inflicted upon party members."
       },
       {
         "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "ability": "Live Painting",
+        "description": "Allows Yusuke to use Card Duplication and Card Creation on the spot"
+      },
+      {
+        "rank": 8,
+        "ability": "Endure",
+        "description": "Chance to withstand an otherwise fatal attack with 1 HP remaining."
+      },
+      {
+        "rank": 9,
+        "ability": "Protect",
+        "description": "Chance to shield Joker from an otherwise fatal attack."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Second Awakening",
+        "description": "Transforms his Persona into a mythological trickster."
+      },
+      {
+        "rank": "ROYAL",
+        "ability": "Second Awakening R",
+        "description": "Fuse with the mythological Trickster, awakening its true power."
       }
     ]
   },
@@ -175,28 +200,53 @@
     "benefits": [
       {
         "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "ability": "Cultivation",
+        "description": "Allows you to grow vegetables with Haru on the Shujin Academy rooftop."
       },
       {
         "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "ability": "Followup",
+        "description": "Chance to perform a follow-up attack if Joker’s attack does not down the enemy"
+      },
+      {
+        "rank": 4,
+        "ability": "Celebrity Talk",
+        "description": "If negotiations amidst a group of Shadows fails, you can try again."
       },
       {
         "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "ability": "Bumper Crop",
+        "description": "Increases the total vegetable yield for a single harvest."
+      },
+      {
+        "rank": 6,
+        "ability": "Harisen Recovery",
+        "description": "Chance to cure status ailments inflicted upon party members."
       },
       {
         "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "ability": "Soil Improvement",
+        "description": "Decreases the total amount of time it takes to cultivate vegetables."
+      },
+      {
+        "rank": 8,
+        "ability": "Endure",
+        "description": "Chance to withstand an otherwise fatal attack with 1 HP remaining."
+      },
+      {
+        "rank": 9,
+        "ability": "Protect",
+        "description": "Chance to shield Joker from an otherwise fatal attack."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Second Awakening",
+        "description": "Transforms her Persona into a mythological trickster."
+      },
+      {
+        "rank": "ROYAL",
+        "ability": "Second Awakening R",
+        "description": "Fuse with the mythological Trickster, awakening its true power."
       }
     ]
   },
@@ -205,29 +255,49 @@
     "romanceable": true,
     "benefits": [
       {
-        "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "rank": 2,
+        "ability": "Tumbling",
+        "description": "Allows you to avoid being surround by enemies in Palaces"
       },
       {
-        "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "rank": 4,
+        "ability": "Chaines Hook",
+        "description": "Allows you to ambush from a distance by attacking with the grappling hook."
       },
       {
         "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "ability": "Follow Up",
+        "description": "Chance to perform a follow-up attack if Joker’s attack does not down the enemy."
+      },
+      {
+        "rank": 6,
+        "ability": "Fitness Talk",
+        "description": "If negotiation with any kind of Shadow fails, you can try again."
       },
       {
         "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "ability": "Harisen Recovery",
+        "description": "Chance to cure status ailments inflicted upon party members."
+      },
+      {
+        "rank": 8,
+        "ability": "Endure",
+        "description": "Chance to withstand an otherwise fatal attack with 1 HP remaining."
+      },
+      {
+        "rank": 9,
+        "ability": "Protect",
+        "description": "Chance to shield Joker from an otherwise fatal attack."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Second Awakening",
+        "description": "Transforms her Persona into a mythological trickster."
+      },
+      {
+        "rank": "ROYAL",
+        "ability": "Second Awakening R",
+        "description": "Fuse with the mythological Trickster, awakening its true power."
       }
     ]
   },
@@ -237,28 +307,33 @@
     "benefits": [
       {
         "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "ability": "Lucky Reading",
+        "description": "Temporarily increases the growth rate of a selected social stat."
       },
       {
         "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "ability": "Money Reading",
+        "description": "Temporarily increases money earned from battle."
       },
       {
         "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "ability": "Affinity Reading",
+        "description": "Deepens your bond with a Confidant of your choice."
       },
       {
         "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "ability": "Special Fate Reading",
+        "description": "Provides a preview of all abilities for a Confidant of your choice."
+      },
+      {
+        "rank": 8,
+        "ability": "Celestial Reading",
+        "description": "Triggers a Fusion Alarm, then raising alarm chances until end of day."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Special Bond Reading",
+        "description": "Displays the responses that grant the highest points during Confidant events."
       }
     ]
   },
@@ -268,28 +343,28 @@
     "benefits": [
       {
         "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "ability": "Starter Customization",
+        "description": "Allows you to customize your gun and install upgrades."
       },
       {
         "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "ability": "Camo Customization",
+        "description": "Allows you to customize camouflage on you gun, which can inflict ailments."
       },
       {
         "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "ability": "Discount ",
+        "description": "Decreases the cost of gun customization."
       },
       {
         "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "ability": "Expert Customization",
+        "description": "Unlocks more parts for customization"
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "On The House",
+        "description": "Allows you to customize your gun for free."
       }
     ]
   },
@@ -299,28 +374,43 @@
     "benefits": [
       {
         "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "ability": "Moral Support",
+        "description": "Chance to cast Kaja or party-healing magic during battle."
       },
       {
-        "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "rank": 2,
+        "ability": "Mementos Scan ",
+        "description": "Chance to fully map the floor of Mementos when entering that floor."
       },
       {
-        "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "rank": 4,
+        "ability": "Position Hack",
+        "description": "Chance to instantly Hold Up enemies when starting a battle."
+      },
+      {
+        "rank": 6,
+        "ability": "Active Support",
+        "description": "Moral Support may now Charge or recover SP."
       },
       {
         "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "ability": "Treasure Reboot",
+        "description": "Chance to revive search objects in the area after battle."
+      },
+      {
+        "rank": 9,
+        "ability": "Emergency Shift",
+        "description": "Chance to swap current party with backups when 2 or more people are KO’d"
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Second Awakening + Final Guard",
+        "description": "Transforms her Persona into a mythological trickster. + Chance to nullify a fatal attack to a current party member."
+      },
+      {
+        "rank": "ROYAL",
+        "ability": "Second Awakening R",
+        "description": "Fuse with the mythological Trickster, awakening its true power."
       }
     ]
   },
@@ -330,28 +420,28 @@
     "benefits": [
       {
         "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "ability": "Coffee Basics",
+        "description": "Allows you to make coffee which slightly restores SP to one ally."
       },
       {
-        "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "rank": 4,
+        "ability": "Leblanc Curry",
+        "description": "Allows you to make curry that slightly restores SP to all allies."
       },
       {
-        "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "rank": 6,
+        "ability": "Coffee Mastery ",
+        "description": "Allows you to make coffee which greatly restores SP to one ally."
       },
       {
-        "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "rank": 9,
+        "ability": "Curry Tips",
+        "description": "Allows you to make curry that moderately restores SP to all allies."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Curry Master",
+        "description": "Allows you to make curry that greatly restores SP to all allies."
       }
     ]
   },
@@ -360,29 +450,34 @@
     "romanceable": false,
     "benefits": [
       {
-        "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "rank": 2,
+        "ability": "Sleuthing Instinct",
+        "description": "Chance to reveal one enemy affinity at the start of battle."
       },
       {
-        "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "rank": 4,
+        "ability": "Smooth Talk",
+        "description": "If negotiation with a god-like Shadow fails, you can try again."
       },
       {
-        "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "rank": 6,
+        "ability": "Sleuthing Mastery + Follow Up",
+        "description": "Chance to reveal all of one enemy’s affinities at the start of battle. + Chance to perform a follow-up attack if Joker’s attack does not down the enemy."
       },
       {
         "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "ability": "Harisen Recovery",
+        "description": "Chance to cure status ailments inflicted upon party members."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Endure + Protect",
+        "description": "Chance to withstand an otherwise fatal attack with 1 HP remaining. + Chance to shield Joker from an otherwise fatal attack."
+      },
+      {
+        "rank": "ROYAL",
+        "ability": "Second Awakening R",
+        "description": "Fuse with the mythological Trickster, awakening its true power."
       }
     ]
   },
@@ -391,29 +486,49 @@
     "romanceable": true,
     "benefits": [
       {
-        "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "rank": 2,
+        "ability": "Girl Talk",
+        "description": "If negotiation with a female Shadow fails, you can try again"
       },
       {
         "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "ability": "Follow Up",
+        "description": "Chance to perform a follow-up attack if Joker’s attack does not down the enemy."
+      },
+      {
+        "rank": 4,
+        "ability": "Sexy Technique <3",
+        "description": "Chance to grab the enemy’s attention and cancel their action."
       },
       {
         "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "ability": "Crocodile Tears",
+        "description": "Chance to force enemies to ask for less during negotiations."
       },
       {
-        "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "rank": 6,
+        "ability": "Harisen Recovery",
+        "description": "Chance to cure status ailments inflicted upon party members."
+      },
+      {
+        "rank": 8,
+        "ability": "Endure",
+        "description": "Chance to withstand an otherwise fatal attack with 1 HP remaining."
+      },
+      {
+        "rank": 9,
+        "ability": "Protect",
+        "description": "Chance to shield Joker from an otherwise fatal attack."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Second Awakening",
+        "description": "Transforms her Persona into a mythological trickster."
+      },
+      {
+        "rank": "ROYAL",
+        "ability": "Second Awakening R",
+        "description": "Fuse with the mythological Trickster, awakening its true power."
       }
     ]
   },
@@ -423,28 +538,28 @@
     "benefits": [
       {
         "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "ability": "Mishima’s Support ",
+        "description": "Allows backup members to earn EXP."
       },
       {
         "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "ability": "Mishima’s Enthusiasm",
+        "description": "Increases EXP earned from battle."
       },
       {
         "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "ability": "Mishima’s Desperation  ",
+        "description": "Increases EXP earned by backup members."
       },
       {
         "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "ability": "Phanboy",
+        "description": "Greatly increases EXP earned from battle."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Salvation Wish ",
+        "description": "Allows backup members to earn the same EXP as current party members."
       }
     ]
   },
@@ -454,28 +569,48 @@
     "benefits": [
       {
         "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "ability": "Shadow Calculus ",
+        "description": "Allows you to see skills and potential item drops on the analysis screen."
       },
       {
         "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "ability": "Black Belt Talk",
+        "description": "If negotiation with a martial arts-using Shadow fails, you can try again."
+      },
+      {
+        "rank": 4,
+        "ability": "Follow Up",
+        "description": "Chance to perform a follow-up attack if Joker’s attack does not down the enemy."
       },
       {
         "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "ability": "Harisen Recovery",
+        "description": "Chance to cure status ailments inflicted upon party members."
       },
       {
         "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "ability": "Shadow Factorization",
+        "description": "Allows you to see Null, Repel, and Drain when highlighting a target in battle."
+      },
+      {
+        "rank": 8,
+        "ability": "Endure",
+        "description": "Chance to withstand an otherwise fatal attack with 1 HP remaining."
+      },
+      {
+        "rank": 9,
+        "ability": "Protect",
+        "description": "Chance to shield Joker from an otherwise fatal attack."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Second Awakening",
+        "description": "Transforms her Persona into a mythological trickster."
+      },
+      {
+        "rank": "ROYAL",
+        "ability": "Second Awakening R",
+        "description": "Fuse with the mythological Trickster, awakening its true power."
       }
     ]
   },
@@ -485,28 +620,33 @@
     "benefits": [
       {
         "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "ability": "Koma Sabaki",
+        "description": "Allows you to swap current party with backup members during Joker’s turn."
       },
       {
         "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "ability": "Uchikomi",
+        "description": "Chance for a follow-up by a backup member if Joker downs an enemy."
       },
       {
         "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "ability": "Kakoi Kuzushi ",
+        "description": "Allows you to attempt to escape, even when surrounded by the enemy."
       },
       {
         "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "ability": "Narikin",
+        "description": "Earn double money if a battle is won in 1 turn after a successful ambush."
+      },
+      {
+        "rank": 9,
+        "ability": "Touryou",
+        "description": "Decreases turn delay to zero, allowing you to instantly escape battle."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Togo System ",
+        "description": "Allows you to swap current party with backup members during anyone’s turn."
       }
     ]
   },
@@ -515,29 +655,29 @@
     "romanceable": false,
     "benefits": [
       {
-        "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "rank": 2,
+        "ability": "Diplomacy",
+        "description": "Occasionally asks for more money or items during negotiations"
       },
       {
         "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "ability": "Fundraising",
+        "description": "Allows you to ask for large amounts of money during negotiations."
       },
       {
         "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "ability": "Manipulation",
+        "description": "Occasionally raises the chances of an enemy giving you a rare item."
       },
       {
-        "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "rank": 8,
+        "ability": "Mind Control ",
+        "description": "Occasionally lets you skip negotiation when attempting to obtain a Persona."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Charismatic Speech ",
+        "description": "Allows you to form contracts with higher-level Shadows."
       }
     ]
   },
@@ -547,28 +687,28 @@
     "benefits": [
       {
         "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "ability": "Slack Off",
+        "description": "Allows you to perform various activities in Kawakami’s class"
       },
       {
         "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "ability": "Housekeeping",
+        "description": "Allows you to request Kawakami to make coffee or do laundry for you."
       },
       {
         "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "ability": "Free Time ",
+        "description": "Gain free time in other teachers’ classes with Kawakami’s help."
       },
       {
         "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "ability": "Super Housekeeping",
+        "description": "Allows you to request Kawakami to make curry or infiltration tools for you."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Special Massage",
+        "description": "Request a massage after going into the Metaverse, letting you go out at night."
       }
     ]
   },
@@ -578,28 +718,38 @@
     "benefits": [
       {
         "rank": 1,
-        "ability": "Rejuvenation",
-        "description": "Increases the selection of healing items at the clinic."
+        "ability": "Down Shot",
+        "description": "Allows you to knock down an enemy with a special shot once per infiltration."
+      },
+      {
+        "rank": 2,
+        "ability": "Bullet Hail",
+        "description": "Chance to enter a gun-based All-out Attack after a successful ambush."
       },
       {
         "rank": 3,
-        "ability": "Sterilization",
-        "description": "Adds more healing items to the clinic."
+        "ability": "Warning Shot",
+        "description": "Able to scare enemies in negotiation to make it easier to obtain a Persona."
       },
       {
         "rank": 5,
-        "ability": "Immunization ",
-        "description": "Adds support items to the inventory at the clinic."
+        "ability": "Laced Bullets",
+        "description": "Increases the success rate of an ailment-inflicting gunshot."
       },
       {
-        "rank": 7,
-        "ability": "Discount",
-        "description": "Decreases the price for all items sold at the clinic."
+        "rank": 6,
+        "ability": "Cheap Shot",
+        "description": "Allows you to use Down Shot three times per infiltration."
+      },
+      {
+        "rank": 8,
+        "ability": "Electric Slug ",
+        "description": "Increases the damage inflicted by Bullet Hail."
       },
       {
         "rank": 10,
-        "ability": "Resuscitation",
-        "description": "Increase the selection of revival items at the clinic."
+        "ability": "Oda Special",
+        "description": "Allows Joker’s gun attacks to ignore resistances and hit the enemy."
       }
     ]
   }
