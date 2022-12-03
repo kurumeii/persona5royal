@@ -1,11 +1,9 @@
-import { HomeIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Head from 'next/head.js'
-import Image from 'next/image.js'
-import Link from 'next/link.js'
 import { useRouter } from 'next/router'
-import { useCallback, useEffect, useRef } from 'react'
+import { useCallback, useEffect } from 'react'
+import CardInfoContent from '../../components/Confidant/CardInfoContent.jsx'
 import NavigateButton from '../../components/Confidant/NavigateButton.jsx'
-import Ranks from '../../components/Confidant/Ranks.jsx'
+import TopButtonGroup from '../../components/Confidant/TopButtonGroup.jsx'
 import ScrollToTop from '../../components/ScrollToTop.jsx'
 import {
   getConfidantAbilities,
@@ -55,22 +53,14 @@ export const getStaticProps = async ({ params }) => {
 
 const KEYS = {
   'ESCAPE_KEY': 27,
-  'ARROW_LEFT_KEY': 37,
-  'ARROW_RIGHT_KEY': 39,
 }
 
 export default function ConfidantInfo(props) {
-  const { arcanaAbilities, arcanaResponses, arcanaInfo, pageInfo } = props
   const router = useRouter()
-  const { arcanaId } = router.query
-  const title = `${arcanaId} | Persona 5 royal`
-  const { benefits, romanceable } = arcanaAbilities
-  const { fullname } = arcanaInfo
-  const rankRef = useRef([])
-  const scrollToRank = (index, rank) => {
-    if (rank === 'ROYAL') return null
-    rankRef.current[index].scrollIntoView({ behavior: 'smooth' })
-  }
+  const { arcanaAbilities, arcanaResponses, arcanaInfo, pageInfo } = props
+  const { romanceable, benefits } = arcanaAbilities
+  const { fullname, arcana } = arcanaInfo
+  const title = `${arcana} confidant guide | Persona 5 royal`
 
   const handleKeyDown = useCallback(
     event => {
@@ -78,32 +68,21 @@ export default function ConfidantInfo(props) {
         case KEYS.ESCAPE_KEY:
           router.replace('/confidants')
           break
-        case KEYS.ARROW_LEFT_KEY:
-          pageInfo.hasPrevPage && router.replace('/confidants/' + pageInfo.prevArcana)
-          break
-        case KEYS.ARROW_RIGHT_KEY:
-          pageInfo.hasNextPage && router.replace('/confidants/' + pageInfo.nextArcana)
-          break
         default:
           break
       }
     },
-    [pageInfo.hasNextPage, pageInfo.hasPrevPage, pageInfo.nextArcana, pageInfo.prevArcana, router]
+    [router]
   )
 
-  useEffect(
-    () => {
-      const isSupported = window && window.addEventListener
-      if (!isSupported) return
-      // Add event listener
-      window.addEventListener('keydown', handleKeyDown)
-      // Remove event listener on cleanup
-      return () => {
-        window.removeEventListener('keydown', handleKeyDown)
-      }
-    },
-    [handleKeyDown] // Re-run if eventName or element changes
-  )
+  useEffect(() => {
+    const isSupported = window && window.addEventListener
+    if (!isSupported) return
+    window.addEventListener('keydown', handleKeyDown)
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [handleKeyDown])
 
   return (
     <>
@@ -114,97 +93,20 @@ export default function ConfidantInfo(props) {
           href='/favicon.ico'
         />
       </Head>
-      <main>
+      <>
         <div className='card w-full bg-base-300 shadow-md'>
-          <div className='flex flex-1 m-10 justify-between'>
-            <Link
-              href='/'
-              replace
-            >
-              <button className='btn btn-ghost gap-2'>
-                <HomeIcon className='h-6 w-6 ' />
-                Back to homepage
-              </button>
-            </Link>
-            <Link
-              href='/confidants'
-              replace
-            >
-              <button className='btn btn-ghost gap-2'>
-                <XMarkIcon className='h-6 w-6 ' />
-                Back to list
-              </button>
-            </Link>
-          </div>
-          <figure className='pt-10'>
-            <Image
-              src={`/confidants/${arcanaId}/${arcanaId}_with_joker.jpg`}
-              alt={arcanaId}
-              width={600}
-              height={300}
-              style={{
-                width: 'auto',
-                height: 'auto',
-              }}
-            />
-          </figure>
-          <div className='card-body'>
-            <h2 className='card-title text-center justify-center text-5xl'>
-              Persona 5 Royal Confidant Guide:
-              <br />
-              {arcanaId} ({fullname})
-            </h2>
-            <div
-              className='overflow-x-auto flex flex-1 flex-col justify-center items-center pt-10'
-              id='benefit'
-            >
-              <table className='table w-fit select-none cursor-pointer'>
-                <thead>
-                  <tr>
-                    <th>Rank</th>
-                    <th>Ability</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {benefits.map((obj, i) => (
-                    <tr
-                      key={obj.rank}
-                      className='hover'
-                      onClick={() => scrollToRank(i, obj.rank)}
-                    >
-                      <td className='font-bold'>{obj.rank}</td>
-                      <td>{obj.ability}</td>
-                      <td>{obj.description}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-            <div className='px-36'>
-              {romanceable && (
-                <div className='text-center font-bold text-secondary'>
-                  If you have {fullname} last gameplay christmas gift, it&rsquo;ll automatically
-                  gives maximum point for correct choices
-                </div>
-              )}
-
-              {arcanaResponses.map(({ level, responses, unlock_new_ability, statRequired }) => (
-                <Ranks
-                  key={level}
-                  level={level}
-                  unlock_new_ability={unlock_new_ability}
-                  statRequired={statRequired}
-                  responses={responses}
-                  ref={rankRef}
-                />
-              ))}
-            </div>
-          </div>
+          <TopButtonGroup />
+          <CardInfoContent
+            arcanaId={arcana}
+            benefits={benefits}
+            romanceable={romanceable}
+            fullname={fullname}
+            arcanaResponses={arcanaResponses}
+          />
         </div>
         <ScrollToTop />
         <NavigateButton pageInfo={pageInfo} />
-      </main>
+      </>
     </>
   )
 }

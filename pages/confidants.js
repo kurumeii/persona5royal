@@ -46,6 +46,7 @@ export default function Confidants({ confidants }) {
               type='text'
               placeholder='Example: Chariot, Ryuji...'
               className='input input-bordered w-full max-w-xs'
+              autoComplete='off'
               value={searchValue}
               onInput={e => setSearchValue(e.target.value.trim())}
             />
