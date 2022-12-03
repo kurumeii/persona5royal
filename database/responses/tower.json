@@ -6,40 +6,54 @@
       {
         "id": 1,
         "options": [
-          { "id": 1, "text": "Fine by me", "point": 1 },
-          { "id": 2, "text": "Please go easy on me.", "point": 2, "same": true },
-          { "id": 3, "text": "So many pretty lights…", "point": 1 }
+          { "id": 1, "text": "Sure", "point": 1 },
+          { "id": 2, "text": "Do we have to? ", "point": 1 },
+          { "id": 3, "text": "Call me when it’s game time", "point": 1, "same": true }
         ]
       }
     ]
   },
   {
     "level": 2,
-    "unlock_new_ability": false,
-    "statRequired": "Guts lv2",
+    "unlock_new_ability": true,
     "responses": [
       {
         "id": 1,
         "options": [
-          { "id": 1, "text": "I have a bad heart.", "point": 1, "same": true },
-          { "id": 2, "text": "We’re on a date.", "point": 0 },
-          { "id": 3, "text": "I know my rights.", "point": 0 }
+          { "id": 1, "text": "Sorry", "point": 2 },
+          { "id": 2, "text": "WDon’t compare me to you.", "point": 2, "same": true },
+          { "id": 3, "text": "Praise would be encouraging", "point": 0 }
         ]
       },
       {
         "id": 2,
         "options": [
-          { "id": 1, "text": "I agree", "point": 1, "same": true },
-          { "id": 2, "text": "Harassment?", "point": 0 },
-          { "id": 3, "text": "The Plague?", "point": 0 }
+          { "id": 1, "text": "Let's go", "point": 0 },
+          { "id": 2, "text": "What a rude employee", "point": 1, "same": true },
+          { "id": 3, "text": "Something bothering you?", "point": 0 }
         ]
       },
       {
         "id": 3,
         "options": [
-          { "id": 1, "text": "I’m totally fine.", "point": 1, "same": true },
-          { "id": 2, "text": "I feel lightheaded", "point": 0 },
-          { "id": 3, "text": "I think I have superpowers", "point": 1, "same": true }
+          { "id": 1, "text": "Are they strong?", "point": 0 },
+          { "id": 2, "text": "Do you admire them? ", "point": 1, "same": true }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          { "id": 1, "text": "So do I.", "point": 2, "same": true },
+          { "id": 2, "text": "They’re more than strong. ", "point": 0 },
+          { "id": 3, "text": "I’ll let them know. ", "point": 2, "same": true }
+        ]
+      },
+      {
+        "id": 5,
+        "options": [
+          { "id": 1, "text": "I’ll work hard.", "point": 1, "same": true },
+          { "id": 2, "text": "If I feel like it", "point": 0 },
+          { "id": 3, "text": "So then I can beat you?", "point": 1, "same": true }
         ]
       }
     ]
@@ -51,23 +65,25 @@
       {
         "id": 1,
         "options": [
-          { "id": 1, "text": "What was that about?", "point": 0 },
-          { "id": 2, "text": "Was that an emergency?", "point": 0 }
+          { "id": 1, "text": "Did something happen?", "point": 0 },
+          { "id": 2, "text": "Let’s go eat.", "point": 0 },
+          { "id": 3, "text": "Are you fasting?", "point": 0 }
         ]
       },
       {
         "id": 2,
         "options": [
-          { "id": 1, "text": "A medical error?", "point": 0 },
-          { "id": 2, "text": "What do you mean?", "point": 0 }
+          { "id": 1, "text": "OK", "point": 0 },
+          { "id": 2, "text": "I’m not down with that.", "point": 0 },
+          { "id": 3, "text": "Let me think about it.", "point": 0 }
         ]
       },
       {
         "id": 3,
         "options": [
-          { "id": 1, "text": "I don’t mind.", "point": 1, "same": true },
-          { "id": 2, "text": "Is it true? ", "point": 0 },
-          { "id": 3, "text": "I need the medicine.", "point": 1, "same": true }
+          { "id": 1, "text": "Are they bullying you?", "point": 0 },
+          { "id": 2, "text": "Sounds like fun?", "point": 0 },
+          { "id": 3, "text": "You shouldn’t waste food", "point": 0 }
         ]
       },
       {
@@ -76,6 +92,14 @@
           { "id": 1, "text": "Of course not.", "point": 1, "same": true },
           { "id": 2, "text": "I don’t think I did…", "point": 0 },
           { "id": 3, "text": "Have you?", "point": 0 }
+        ]
+      },
+      {
+        "id": 4,
+        "options": [
+          { "id": 1, "text": "Sure", "point": 1, "same": true },
+          { "id": 2, "text": "If our schedules line up. ", "point": 0 },
+          { "id": 3, "text": "Any food requests?", "point": 0 }
         ]
       }
     ]
@@ -87,24 +111,17 @@
       {
         "id": 1,
         "options": [
-          { "id": 1, "text": "You’ll be OK", "point": 0 },
-          { "id": 2, "text": "Dr. Takemi will help.", "point": 1, "new": true }
+          { "id": 1, "text": "Calm down.", "point": 0 },
+          { "id": 2, "text": "You’re being a sore loser.", "point": 0 },
+          { "id": 3, "text": "Yeah, you tell him! ", "point": 1, "new": true }
         ]
       },
       {
         "id": 2,
         "options": [
-          { "id": 1, "text": "You seem happy.", "point": 2, "new": true },
-          { "id": 2, "text": "You’re so kind.", "point": 2 },
-          { "id": 3, "text": "Why free?", "point": 2 }
-        ]
-      },
-      {
-        "id": 3,
-        "options": [
-          { "id": 1, "text": "I’ll reflect on my mistakes", "point": 1, "same": true },
-          { "id": 2, "text": "But she ended up okay.", "point": 0 },
-          { "id": 3, "text": "Punish me more.", "point": 0 }
+          { "id": 1, "text": "Don’t get so worked up", "point": 0 },
+          { "id": 2, "text": "Get your revenge.", "point": 1, "same": true },
+          { "id": 3, "text": "Pros are amazing, huh?", "point": 0 }
         ]
       }
     ]
@@ -116,186 +133,148 @@
       {
         "id": 1,
         "options": [
-          { "id": 1, "text": "They trust you", "point": 0 },
-          { "id": 2, "text": "Was it really your fault? ", "point": 0 }
+          { "id": 1, "text": "It was pretty weird. ", "point": 2, "same": true },
+          { "id": 2, "text": "It happens ", "point": 0 },
+          { "id": 3, "text": "He must’ve rigged it", "point": 2, "same": true }
         ]
       },
       {
         "id": 2,
         "options": [
-          { "id": 1, "text": "I had no idea.", "point": 2, "new": true },
-          { "id": 2, "text": "It’s not too late.", "point": 2 }
+          { "id": 1, "text": "You think you have a chance?", "point": 0 },
+          { "id": 2, "text": "I’m sure you can do it. ", "point": 1, "same": true },
+          { "id": 3, "text": "Don’t get so worked up ", "point": 0 }
         ]
       },
       {
         "id": 3,
         "options": [
-          { "id": 1, "text": "That’s good. ", "point": 2, "same": true },
-          { "id": 2, "text": "When will it be done?", "point": 2 },
-          { "id": 3, "text": "… “Probably”?", "point": 0 }
+          { "id": 1, "text": "Are you going to give up?", "point": 2 },
+          { "id": 2, "text": "You need a new strategy", "point": 2, "same": true }
         ]
       },
       {
         "id": 4,
         "options": [
-          { "id": 1, "text": "About Miwa-chan?", "point": 1, "same": true },
-          { "id": 2, "text": "About Oyamada?", "point": 0 },
-          { "id": 3, "text": "About Crawford-Ende’s ?", "point": 0 }
+          { "id": 1, "text": "I’ll be cheering you on. ", "point": 1, "same": true },
+          { "id": 2, "text": "You’re a sharp kid. ", "point": 0 },
+          { "id": 3, "text": "Think you can take him?", "point": 1, "same": true }
         ]
       }
     ]
   },
   {
     "level": 6,
-    "unlock_new_ability": false,
+    "unlock_new_ability": true,
     "responses": [
       {
         "id": 1,
         "options": [
-          { "id": 1, "text": "Well, someone’s popular.", "point": 0 },
-          { "id": 2, "text": "You seem annoyed", "point": 0 },
-          { "id": 3, "text": "Did something happen?", "point": 0 }
+          { "id": 1, "text": "I can pay for myself", "point": 0 },
+          { "id": 2, "text": "If you insist.", "point": 0 },
+          { "id": 3, "text": "Do you have enough?", "point": 0 }
         ]
       },
       {
         "id": 2,
         "options": [
-          { "id": 1, "text": "Having fun?", "point": 0 },
-          { "id": 2, "text": "You ARE a genius", "point": 0 }
+          { "id": 1, "text": "You should return the money", "point": 0 },
+          { "id": 2, "text": "You’re acting like one", "point": 0 }
         ]
       },
       {
         "id": 3,
         "options": [
-          { "id": 1, "text": "You’re a masochist.", "point": 0 },
-          { "id": 2, "text": "It suits you.", "point": 2, "same": true },
-          { "id": 3, "text": "You’re not honest.", "point": 2 }
+          { "id": 1, "text": "That’s good.", "point": 2 },
+          { "id": 2, "text": "I believe in you. ", "point": 2, "same": true }
         ]
       },
       {
         "id": 4,
         "options": [
-          { "id": 1, "text": "You can count on me.", "point": 1, "same": true },
-          { "id": 2, "text": "I think I’m at my limit… ", "point": 0 },
-          { "id": 3, "text": "Anything for you. ?", "point": 1, "same": true }
+          { "id": 1, "text": "A little bit.", "point": 0 },
+          { "id": 2, "text": "Not at all", "point": 2, "same": true },
+          { "id": 3, "text": "I’m worried about you.", "point": 0 }
+        ]
+      },
+      {
+        "id": 5,
+        "options": [
+          { "id": 1, "text": "Of course I won’t", "point": 1, "same": true },
+          { "id": 2, "text": "That’s up to you.", "point": 0 },
+          { "id": 3, "text": "I’m your big brother, right?", "point": 0 }
         ]
       }
     ]
   },
   {
     "level": 7,
-    "unlock_new_ability": true,
-    "responses": [
-      {
-        "id": 1,
-        "options": [
-          { "id": 1, "text": "This is harassment", "point": 2 },
-          { "id": 2, "text": "She’s a great doctor.", "point": 2 },
-          { "id": 3, "text": "Please be quiet. ", "point": 2 }
-        ]
-      },
-      {
-        "id": 2,
-        "options": [
-          { "id": 1, "text": "Don’t lose hope.", "point": 0 },
-          { "id": 2, "text": "Let’s ask for details.", "point": 0 },
-          { "id": 2, "text": "…… ", "point": 0 }
-        ]
-      },
-      {
-        "id": 3,
-        "options": [
-          { "id": 1, "text": "Just rest for today. ", "point": 1, "same": true },
-          { "id": 2, "text": "Anything I can do?", "point": 1, "same": true },
-          { "id": 3, "text": "Let’s retaliate.", "point": 2 }
-        ]
-      },
-      {
-        "id": 4,
-        "options": [
-          { "id": 1, "text": "It was inevitable", "point": 0 },
-          { "id": 2, "text": "We all do sometimes. ", "point": 2, "same": true },
-          { "id": 3, "text": "I’m glad you did", "point": 2 }
-        ]
-      }
-    ]
-  },
-  {
-    "level": 7.5,
     "unlock_new_ability": false,
-    "statRequired": "Charm lv4",
     "responses": [
       {
         "id": 1,
         "options": [
-          { "id": 1, "text": "What about Miwa-chan?", "point": 0 },
-          { "id": 2, "text": "You OK with this? ", "point": 0 }
+          { "id": 1, "text": "I haven’t done anything.", "point": 0 },
+          { "id": 2, "text": "Calm down", "point": 0 },
+          { "id": 3, "text": "Bad influence? ", "point": 0 }
         ]
       },
       {
         "id": 2,
         "options": [
-          { "id": 1, "text": "Don’t give up.", "point": 0 },
-          { "id": 2, "text": "Anything you can do?", "point": 0 },
-          { "id": 2, "text": "I’m your ally.", "point": 1, "same": true }
+          { "id": 1, "text": "Take it easy on him.", "point": 0 },
+          { "id": 2, "text": "Think about his feelings.", "point": 0 }
         ]
       },
       {
         "id": 3,
         "options": [
-          { "id": 1, "text": "You gonna run away?", "point": 0 },
-          { "id": 2, "text": "And your patients?", "point": 0 }
+          { "id": 1, "text": "Bring it on, lady", "point": 0 },
+          { "id": 2, "text": "I haven’t done anything.", "point": 0 },
+          { "id": 3, "text": "That wouldn’t be good.", "point": 0 }
         ]
       },
       {
         "id": 4,
         "options": [
-          { "id": 1, "text": "What’s his full name?", "point": 0 },
-          { "id": 2, "text": "Tell me about him.", "point": 0 }
-        ]
-      },
-      {
-        "id": 5,
-        "options": [
-          { "id": 1, "text": "I won’t do anything.", "point": 0 },
-          { "id": 2, "text": "It’s for my research.", "point": 0 }
+          { "id": 1, "text": "What’s your mom’s name?", "point": 0 },
+          { "id": 2, "text": "Tell me about your mom.", "point": 0 }
         ]
       }
     ]
   },
   {
     "level": 8,
-    "unlock_new_ability": false,
+    "unlock_new_ability": true,
     "responses": [
       {
         "id": 1,
         "options": [
-          { "id": 1, "text": "Miwa-chan is alive", "point": 0 },
-          { "id": 2, "text": "Oyamada lied to you.", "point": 0 }
+          { "id": 1, "text": "She’s out to control.", "point": 0 },
+          { "id": 2, "text": "No, she’s not", "point": 1, "same": true },
+          { "id": 3, "text": "Is that what you think?", "point": 1, "same": true }
         ]
       },
       {
         "id": 2,
         "options": [
-          { "id": 1, "text": "You should hurry. ", "point": 2 },
-          { "id": 2, "text": "Let’s get to work, doctor. ", "point": 2, "same": true },
-          { "id": 3, "text": "It’s not over yet.", "point": 2, "same": true }
+          { "id": 1, "text": "It’ll all work out", "point": 2 },
+          { "id": 2, "text": "I can’t guarantee it", "point": 0 },
+          { "id": 3, "text": "Believe in them", "point": 2, "same": true }
         ]
       },
       {
         "id": 3,
         "options": [
-          { "id": 1, "text": "It’s for Miwa-chan", "point": 2, "same": true },
-          { "id": 2, "text": "It’s for my exams.", "point": 2 },
-          { "id": 3, "text": "It’s for you.", "point": 2, "same": true }
+          { "id": 1, "text": "Is that too much for you?", "point": 0 },
+          { "id": 2, "text": "Way to step up.", "point": 0 }
         ]
       },
       {
         "id": 4,
         "options": [
-          { "id": 1, "text": "I’ll be cheering you on.", "point": 1, "same": true },
-          { "id": 2, "text": "Don’t burn yourself out", "point": 0 },
-          { "id": 3, "text": "Anything else I can do.", "point": 1, "same": true }
+          { "id": 1, "text": "Let’s save her.", "point": 3 },
+          { "id": 2, "text": "That’s admirable", "point": 3 }
         ]
       }
     ]
@@ -307,74 +286,61 @@
       {
         "id": 1,
         "options": [
-          { "id": 1, "text": "Don’t worry about it.", "point": 2 },
-          { "id": 2, "text": "It was for my exams", "point": 2 },
-          { "id": 3, "text": "It was rough", "point": 2, "same": true }
+          { "id": 1, "text": "I’m glad to hear that", "point": 2, "same": true },
+          { "id": 2, "text": "That’s hard to believe.", "point": 0 },
+          { "id": 3, "text": "Thank the Phantom Thieves", "point": 2 }
         ]
       },
       {
         "id": 2,
         "options": [
-          { "id": 1, "text": "That’s troubling.", "point": 0 },
-          { "id": 2, "text": "And your patients?", "point": 0 }
+          { "id": 1, "text": "A little bit, yea", "point": 2 },
+          { "id": 2, "text": "No, that makes sense.", "point": 2, "same": true },
+          { "id": 3, "text": "It means you’ve matured", "point": 2, "same": true }
         ]
       },
       {
         "id": 3,
         "options": [
-          { "id": 1, "text": "I wanted to see you. (ROMANCE)", "point": 0 },
-          { "id": 2, "text": "It was for my exams (END)", "point": 0 }
+          { "id": 1, "text": "He wants to win at all costs.", "point": 2, "same": true },
+          { "id": 2, "text": "He’s too lazy to practice. ", "point": 0 },
+          { "id": 3, "text": "I wouldn’t know…", "point": 0 }
         ]
       },
       {
         "id": 4,
         "options": [
-          { "id": 1, "text": "I love you (ROMANCE)", "point": 2 },
-          { "id": 2, "text": "What do you think (END)", "point": 2 },
-          { "id": 3, "text": "It was rough", "point": 2, "same": true }
-        ]
-      },
-      {
-        "id": 5,
-        "options": [
-          { "id": 1, "text": "It isn’t a joke. (ROMANCE)", "point": 2, "same": true },
-          { "id": 2, "text": "That sounds good.", "point": 0 }
-        ]
-      },
-      {
-        "id": 6,
-        "options": [
-          { "id": 1, "text": "It’s true love.", "point": 0 },
-          { "id": 2, "text": "So did you.", "point": 1, "same": true },
-          { "id": 3, "text": "I’ve always loved you", "point": 0 }
+          { "id": 1, "text": "Your wish came true.", "point": 2 },
+          { "id": 2, "text": "You really think It was them?", "point": 2 },
+          { "id": 3, "text": "You did a great job too.", "point": 2 }
         ]
       }
     ]
   },
   {
-    "level": "10 (ROMANCE)",
+    "level": "10",
     "unlock_new_ability": true,
     "responses": [
       {
         "id": 1,
         "options": [
-          { "id": 1, "text": "Uh, what?", "point": 0 },
-          { "id": 2, "text": "Is that a joke? ", "point": 0 }
+          { "id": 1, "text": "Thanks to my hard work", "point": 2 },
+          { "id": 2, "text": "Thanks to my teacher", "point": 2, "same": true }
         ]
       },
       {
         "id": 2,
         "options": [
-          { "id": 1, "text": "It’s a coincidence. ", "point": 0 },
-          { "id": 2, "text": "I wonder…", "point": 0, "same": true },
-          { "id": 3, "text": "So what if it’s true? ", "point": 0 }
+          { "id": 1, "text": "You got your revenge", "point": 0 },
+          { "id": 2, "text": "You made things right.", "point": 2, "same": true },
+          { "id": 3, "text": "You made new friends ", "point": 2, "same": true }
         ]
       },
       {
         "id": 3,
         "options": [
-          { "id": 1, "text": "What kind?", "point": 2 },
-          { "id": 2, "text": "Yes, please.", "point": 2, "same": true }
+          { "id": 1, "text": "I’ll let you in", "point": 0 },
+          { "id": 2, "text": "Ask them yourself.", "point": 0 }
         ]
       }
     ]

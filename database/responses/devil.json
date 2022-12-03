@@ -246,7 +246,7 @@
         "id": 1,
         "options": [
           { "id": 1, "text": "Like what?", "point": 0 },
-          { "id": 2, "text": "You seem tired.", "point": 0 },
+          { "id": 2, "text": "You seem tired.", "point": 2, "same": true },
           { "id": 3, "text": "So… I have a pet cat…", "point": 0 }
         ]
       },
