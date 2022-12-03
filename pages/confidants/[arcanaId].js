@@ -1,9 +1,10 @@
-import { QueueListIcon } from '@heroicons/react/24/outline'
+import { HomeIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Head from 'next/head.js'
 import Image from 'next/image.js'
 import Link from 'next/link.js'
 import { useRouter } from 'next/router'
-import { useRef } from 'react'
+import { useCallback, useEffect, useRef } from 'react'
+import NavigateButton from '../../components/Confidant/NavigateButton.jsx'
 import Ranks from '../../components/Confidant/Ranks.jsx'
 import ScrollToTop from '../../components/ScrollToTop.jsx'
 import {
@@ -28,22 +29,38 @@ export const getStaticPaths = async () => {
 }
 
 export const getStaticProps = async ({ params }) => {
-  const [arcanaAbilities, arcanaResponses, arcanaInfo] = await Promise.all([
+  const [arcanaAbilities, arcanaResponses, arcanaInfo, confidantList] = await Promise.all([
     getConfidantAbilities(params.arcanaId),
     getConfidantReponses(params.arcanaId),
     getConfidantInfo(params.arcanaId),
+    getConfidantList(),
   ])
+  const ids = confidantList.map(c => c.id)
+  const arcanas = confidantList.map(c => c.arcana)
   return {
     props: {
       arcanaAbilities,
       arcanaResponses,
       arcanaInfo,
+      pageInfo: {
+        hasNextPage:
+          ids.indexOf(arcanaInfo.id) >= 0 && ids.indexOf(arcanaInfo.id) !== ids.length - 1,
+        hasPrevPage: ids.indexOf(arcanaInfo.id) > 0 && ids.indexOf(arcanaInfo.id) <= ids.length - 1,
+        nextArcana: arcanas[+arcanaInfo.id + 1 - 1] || '',
+        prevArcana: arcanas[+arcanaInfo.id - 1 - 1] || '',
+      },
     },
   }
 }
 
+const KEYS = {
+  'ESCAPE_KEY': 27,
+  'ARROW_LEFT_KEY': 37,
+  'ARROW_RIGHT_KEY': 39,
+}
+
 export default function ConfidantInfo(props) {
-  const { arcanaAbilities, arcanaResponses, arcanaInfo } = props
+  const { arcanaAbilities, arcanaResponses, arcanaInfo, pageInfo } = props
   const router = useRouter()
   const { arcanaId } = router.query
   const title = `${arcanaId} | Persona 5 royal`
@@ -54,6 +71,39 @@ export default function ConfidantInfo(props) {
     if (rank === 'ROYAL') return null
     rankRef.current[index].scrollIntoView({ behavior: 'smooth' })
   }
+
+  const handleKeyDown = useCallback(
+    event => {
+      switch (event.keyCode) {
+        case KEYS.ESCAPE_KEY:
+          router.replace('/confidants')
+          break
+        case KEYS.ARROW_LEFT_KEY:
+          pageInfo.hasPrevPage && router.replace('/confidants/' + pageInfo.prevArcana)
+          break
+        case KEYS.ARROW_RIGHT_KEY:
+          pageInfo.hasNextPage && router.replace('/confidants/' + pageInfo.nextArcana)
+          break
+        default:
+          break
+      }
+    },
+    [pageInfo.hasNextPage, pageInfo.hasPrevPage, pageInfo.nextArcana, pageInfo.prevArcana, router]
+  )
+
+  useEffect(
+    () => {
+      const isSupported = window && window.addEventListener
+      if (!isSupported) return
+      // Add event listener
+      window.addEventListener('keydown', handleKeyDown)
+      // Remove event listener on cleanup
+      return () => {
+        window.removeEventListener('keydown', handleKeyDown)
+      }
+    },
+    [handleKeyDown] // Re-run if eventName or element changes
+  )
 
   return (
     <>
@@ -66,13 +116,22 @@ export default function ConfidantInfo(props) {
       </Head>
       <main>
         <div className='card w-full bg-base-300 shadow-md'>
-          <div className='flex-none px-2 m-10'>
+          <div className='flex flex-1 m-10 justify-between'>
+            <Link
+              href='/'
+              replace
+            >
+              <button className='btn btn-ghost gap-2'>
+                <HomeIcon className='h-6 w-6 ' />
+                Back to homepage
+              </button>
+            </Link>
             <Link
               href='/confidants'
               replace
             >
               <button className='btn btn-ghost gap-2'>
-                <QueueListIcon className='h-6 w-6 ' />
+                <XMarkIcon className='h-6 w-6 ' />
                 Back to list
               </button>
             </Link>
@@ -143,7 +202,8 @@ export default function ConfidantInfo(props) {
             </div>
           </div>
         </div>
-        <ScrollToTop></ScrollToTop>
+        <ScrollToTop />
+        <NavigateButton pageInfo={pageInfo} />
       </main>
     </>
   )

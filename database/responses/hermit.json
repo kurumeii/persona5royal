@@ -32,7 +32,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 4,
         "options": [
           { "id": 1, "text": "I bet it will.", "point": 1, "same": true },
           { "id": 2, "text": "I’m not sure.", "point": 0 },

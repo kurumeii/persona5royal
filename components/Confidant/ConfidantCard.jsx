@@ -24,7 +24,6 @@ export function ConfidantCard({ confidants }) {
               alt={arcana}
               width={170}
               height={300}
-              className='transition-opacity group-hover:opacity-80 w-full h-full'
             />
           </div>
         </Link>

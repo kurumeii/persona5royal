@@ -1,7 +1,6 @@
 import Head from 'next/head.js'
 import React, { useEffect, useState } from 'react'
 
-import { ArrowPathIcon } from '@heroicons/react/24/outline'
 import { ConfidantCard } from '../components/Confidant/ConfidantCard.jsx'
 import Layout from '../components/layout/confidantsLayout.jsx'
 import { getConfidantList } from '../controller/confidantController.js'
@@ -18,7 +17,7 @@ export const getStaticProps = async () => {
 export default function Confidants({ confidants }) {
   const [searchValue, setSearchValue] = useState('')
   const [filterResult, setResults] = useState([...confidants])
-  const [loading, setDone] = useState(false)
+
   useEffect(() => {
     if (searchValue === '') return setResults([...confidants])
     let result = confidants.filter(obj => {
@@ -30,8 +29,6 @@ export default function Confidants({ confidants }) {
     if (result.length === 0) return setResults([...confidants])
     return setResults(result)
   }, [confidants, searchValue])
-
-  useEffect(() => setDone(filterResult.length === 0), [filterResult])
 
   return (
     <div>
@@ -53,15 +50,9 @@ export default function Confidants({ confidants }) {
               onInput={e => setSearchValue(e.target.value.trim())}
             />
           </div>
-          {loading ? (
-            <div className='flex flex-1 justify-center'>
-              <ArrowPathIcon className='animate-spin h-10 w-10' />
-            </div>
-          ) : (
-            <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10 md:gap-5 auto-cols-max justify-items-center items-center'>
-              <ConfidantCard confidants={filterResult} />
-            </div>
-          )}
+          <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10 md:gap-5 auto-cols-max justify-items-center items-center'>
+            <ConfidantCard confidants={filterResult} />
+          </div>
         </section>
       </main>
     </div>

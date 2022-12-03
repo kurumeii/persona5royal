@@ -149,7 +149,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 5,
         "options": [
           { "id": 1, "text": "I don’t mind.", "point": 1, "same": true },
           { "id": 2, "text": "As long as I’m compensated", "point": 0 },
@@ -293,7 +293,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 5,
         "options": [
           { "id": 1, "text": "Good luck. ", "point": 1, "same": true },
           { "id": 2, "text": "Be careful. ", "point": 1, "same": true },
