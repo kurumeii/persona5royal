@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import confidantBgImage from '../public/confidant_bg.jpg'
 import examAnswersImage from '../public/exam_answers_bg.jpg'
+import dartImage from '../public/dart_bg.jpg'
 import { CardGuide } from '../components/Homepage/CardGuide.jsx'
 
 const cardsGuide = [
@@ -11,6 +12,7 @@ const cardsGuide = [
     alt: 'Quiz and Exam question background image',
     page: 'quiz_n_exam',
   },
+  { id: 3, title: 'Dart guide', page: 'dart' },
 ]
 export default function Home() {
   return (
@@ -45,7 +47,13 @@ export default function Home() {
                 key={cardInfo.id}
                 title={cardInfo.title}
                 alt={cardInfo.alt}
-                src={cardInfo.id === 1 ? confidantBgImage : examAnswersImage}
+                src={
+                  cardInfo.id === 1
+                    ? confidantBgImage
+                    : cardInfo.id === 2
+                    ? examAnswersImage
+                    : dartImage
+                }
                 page={cardInfo.page}
               />
             ))}
