@@ -1,4 +1,4 @@
-import React, { forwardRef, useCallback, useEffect, useState } from 'react'
+import React, { forwardRef } from 'react'
 import TableData from './TableData.jsx'
 
 function Ranks(props, ref) {

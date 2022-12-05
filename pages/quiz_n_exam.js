@@ -1,9 +1,10 @@
 import Head from 'next/head.js'
 import React, { useState } from 'react'
 import Layout from '../components/layout/confidantsLayout.jsx'
-import ListboxType from '../components/ListBox/ListboxType.jsx'
-import ListContent from '../components/ListBox/ListContent.jsx'
-import ScrollToTop from '../components/ScrollToTop.jsx'
+import ListboxType from '../components/Quiz/ListBox/ListboxType.jsx'
+import ListContent from '../components/Quiz/ListBox/ListContent.jsx'
+import ScrollToTop from '../components/shared/ScrollToTop.jsx'
+
 export const types = [
   { id: 1, text: 'Final' },
   { id: 2, text: 'Quiz' },

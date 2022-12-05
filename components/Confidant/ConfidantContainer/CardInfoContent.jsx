@@ -1,7 +1,7 @@
 import Image from 'next/image.js'
-import React, { createRef, useEffect, useRef, useState } from 'react'
-import Ranks from './Ranks.jsx'
-import TableAbility from './TableAbility.jsx'
+import React, { useRef } from 'react'
+import Ranks from './CardInfoBody/Ranks.jsx'
+import TableAbility from './CardInfoBody/TableAbility.jsx'
 
 function CardInfoContent(props) {
   const { arcanaId, fullname, benefits, romanceable, arcanaResponses } = props

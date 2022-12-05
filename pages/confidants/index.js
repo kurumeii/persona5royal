@@ -51,9 +51,7 @@ export default function Confidants({ confidants }) {
               onInput={e => setSearchValue(e.target.value.trim())}
             />
           </div>
-          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 md:gap-5 auto-cols-max justify-items-center items-center'>
-            <ConfidantCard confidants={filterResult} />
-          </div>
+          <ConfidantCard confidants={filterResult} />
         </section>
       </main>
     </div>

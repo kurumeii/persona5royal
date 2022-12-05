@@ -1,10 +1,10 @@
 import Head from 'next/head.js'
 import { useRouter } from 'next/router'
 import { useCallback, useEffect } from 'react'
-import CardInfoContent from '../../components/Confidant/CardInfoContent.jsx'
-import NavigateButton from '../../components/Confidant/NavigateButton.jsx'
-import TopButtonGroup from '../../components/Confidant/TopButtonGroup.jsx'
-import ScrollToTop from '../../components/ScrollToTop.jsx'
+import CardInfoContent from '../../components/Confidant/ConfidantContainer/CardInfoContent.jsx'
+import NavigateButton from '../../components/Confidant/ConfidantContainer/NavigateButton.jsx'
+import TopButtonGroup from '../../components/Confidant/ConfidantContainer/TopButtonGroup.jsx'
+import ScrollToTop from '../../components/shared/ScrollToTop.jsx'
 import {
   getConfidantAbilities,
   getConfidantInfo,
@@ -103,9 +103,9 @@ export default function ConfidantInfo(props) {
             fullname={fullname}
             arcanaResponses={arcanaResponses}
           />
+          <NavigateButton pageInfo={pageInfo} />
+          <ScrollToTop />
         </div>
-        <ScrollToTop />
-        <NavigateButton pageInfo={pageInfo} />
       </>
     </>
   )

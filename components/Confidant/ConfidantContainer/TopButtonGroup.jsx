@@ -1,7 +1,7 @@
 import { HomeIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link.js'
 import React from 'react'
-import SearchConfidant from './SearchConfidant.jsx'
+import SearchConfidant from './CardInfoTop/SearchConfidant.jsx'
 
 function TopButtonGroup() {
   return (
