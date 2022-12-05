@@ -1,9 +1,9 @@
 import Head from 'next/head.js'
 import React, { useEffect, useState } from 'react'
 
-import { ConfidantCard } from '../components/Confidant/ConfidantCard.jsx'
-import Layout from '../components/layout/confidantsLayout.jsx'
-import { getConfidantList } from '../controller/confidantController.js'
+import { ConfidantCard } from '../../components/Confidant/ConfidantCard.jsx'
+import Layout from '../../components/layout/confidantsLayout.jsx'
+import { getConfidantList } from '../../controller/confidantController.js'
 
 export const getStaticProps = async () => {
   const confidants = await getConfidantList()
@@ -51,7 +51,7 @@ export default function Confidants({ confidants }) {
               onInput={e => setSearchValue(e.target.value.trim())}
             />
           </div>
-          <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10 md:gap-5 auto-cols-max justify-items-center items-center'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 md:gap-5 auto-cols-max justify-items-center items-center'>
             <ConfidantCard confidants={filterResult} />
           </div>
         </section>

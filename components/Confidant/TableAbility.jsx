@@ -1,7 +1,7 @@
 import React from 'react'
 
 function TableAbility(props) {
-  const { benefits, scrollToRank } = props
+  const { benefits, onClickHandler } = props
 
   return (
     <table className='table w-fit select-none cursor-pointer'>
@@ -17,7 +17,7 @@ function TableAbility(props) {
           <tr
             key={obj.rank}
             className='hover'
-            onClick={() => scrollToRank(i, obj.rank)}
+            onClick={() => onClickHandler(obj.rank)}
           >
             <td className='font-bold'>{obj.rank}</td>
             <td>{obj.ability}</td>

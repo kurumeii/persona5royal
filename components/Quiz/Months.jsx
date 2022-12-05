@@ -1,6 +1,6 @@
 import Image from 'next/image.js'
 import Link from 'next/link.js'
-import React, { createRef, forwardRef, useEffect } from 'react'
+import React, { forwardRef } from 'react'
 
 function Months(props, ref) {
   const { data, scrollToContent } = props

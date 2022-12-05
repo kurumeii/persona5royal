@@ -15,15 +15,15 @@ export function ConfidantCard({ confidants }) {
           }}
           replace
         >
-          <div
-            key={name}
-            className='relative col-auto drop-shadow-lg border-primary border-2 border-solid cursor-pointer'
-          >
+          <div className='relative cursor-pointer rounded-md w-32 h-64 md:w-40 md:h-72 transition-transform hover:scale-95'>
             <Image
               src={`/confidants/${arcana}/${arcana}_bg.jpg`}
-              alt={arcana}
-              width={170}
-              height={300}
+              alt={name}
+              fill
+              className='object-contain object-center'
+              sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
             />
           </div>
         </Link>

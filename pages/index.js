@@ -12,7 +12,7 @@ const cardsGuide = [
     alt: 'Quiz and Exam question background image',
     page: 'quiz_n_exam',
   },
-  { id: 3, title: 'Dart guide', page: 'dart' },
+  { id: 3, title: 'Dart guide', page: 'dart', alt: 'Dart background image' },
 ]
 export default function Home() {
   return (

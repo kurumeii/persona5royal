@@ -1,15 +1,15 @@
 import Image from 'next/image.js'
-import React, { useRef } from 'react'
+import React, { createRef, useEffect, useRef, useState } from 'react'
 import Ranks from './Ranks.jsx'
 import TableAbility from './TableAbility.jsx'
 
 function CardInfoContent(props) {
   const { arcanaId, fullname, benefits, romanceable, arcanaResponses } = props
   const rankRef = useRef([])
-
-  const scrollToRank = (index, rank) => {
+  const scrollToRank = rank => {
     if (rank === 'ROYAL') return null
-    rankRef.current[index].scrollIntoView({ behavior: 'smooth' })
+    const index = rankRef.current.find(el => +el.id === rank)
+    rankRef.current[rankRef.current.indexOf(index)].scrollIntoView({ behavior: 'smooth' })
   }
 
   return (
@@ -36,7 +36,10 @@ function CardInfoContent(props) {
           className='overflow-x-auto flex flex-1 flex-col justify-center items-center pt-10'
           id='benefit'
         >
-          <TableAbility benefits={benefits} />
+          <TableAbility
+            benefits={benefits}
+            onClickHandler={scrollToRank}
+          />
         </div>
         <div className='px-36'>
           {romanceable && (
@@ -45,17 +48,10 @@ function CardInfoContent(props) {
               maximum point for correct choices
             </div>
           )}
-
-          {arcanaResponses.map(({ level, responses, unlock_new_ability, statRequired }) => (
-            <Ranks
-              key={level}
-              level={level}
-              unlock_new_ability={unlock_new_ability}
-              statRequired={statRequired}
-              responses={responses}
-              ref={rankRef}
-            />
-          ))}
+          <Ranks
+            arcanaResponses={arcanaResponses}
+            ref={rankRef}
+          />
         </div>
       </div>
     </>
