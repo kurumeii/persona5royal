@@ -1,8 +1,7 @@
 import Image from 'next/image.js'
-import Link from 'next/link.js'
-import React, { createRef, useEffect, useRef, useState } from 'react'
-import CrossWord from '../Quiz/CrossWord.jsx'
-import Months from '../Quiz/Months.jsx'
+import React, { createRef, useEffect, useState } from 'react'
+import CrossWord from '../CrossWord.jsx'
+import Months from '../Months.jsx'
 
 function ListContent({ selected }) {
   const [data, setData] = useState([])

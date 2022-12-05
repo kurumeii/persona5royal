@@ -1,7 +1,7 @@
 import { Listbox } from '@headlessui/react'
 import { CursorArrowRaysIcon } from '@heroicons/react/24/outline'
 import classNames from 'classnames'
-import { types } from '../../pages/quiz_n_exam.js'
+import { types } from '../../../pages/quiz_n_exam.js'
 
 const ListOption = () =>
   types.map((type, index) => {
